@@ -113,3 +113,17 @@ i{
     color: #29382f;
     margin-right: 8px;
 }
+
+address p {
+    margin: 5px 0;
+}
+    
+address a{
+    color:#216cae;
+    text-decoration: none;
+}
+    
+article{
+    margin-bottom: 15px;
+}
+    
