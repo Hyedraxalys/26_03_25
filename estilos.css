@@ -19,35 +19,13 @@ main{
     box-shadow: 0 0 10px rgba(28, 123, 53, 0.486);
 }
 
-/* header{
+header{
     text-align: center;
     color: rgb(17, 41, 18);
     padding: 20px 0;
     border-radius: 8px 8px 0;
     background-image: url('./img/dominik-kempf-I_Cg0Bd3y6M-unsplash.jpg');
     background-size: 100%;
-} */
-
-header {
-    position: relative; /* Necesario para el pseudo-elemento */
-    text-align: center;
-    color: rgb(4, 14, 9);
-    padding: 20px 0;
-    border-radius: 8px 8px 0 0;
-    overflow: hidden; /* Para que el pseudo-elemento no se salga del contenedor */
-}
-
-header::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('./img/dominik-kempf-I_Cg0Bd3y6M-unsplash.jpg');
-    background-size: cover;
-    opacity: 0.6; 
-    z-index: -1; 
 }
 
 header figure img{
@@ -109,7 +87,7 @@ h3{
 }
 
 section{
-    background-color: white;
+    background-color: rgb(207, 207, 162);
     padding: 15px;
     border-radius: 8px;
     margin-bottom: 20px;
